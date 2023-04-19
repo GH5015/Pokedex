@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="css/import/favicon-16x16.png">
+    <title>Pokedéx</title>
+</head>
+<body>
+    <main>
+        <div class="div-descr">
+            <button class="button descr" id="descr"> Descr.</button>
+        </div>
+        <img src="" alt="pokemon gif" class="pokemon__image">
+        <h1 class="pokemon">
+            <span class="pokemon__number"></span> -
+            <span class="pokemon__name"></span>
+        </h1>
+        <form class="form">
+            <input type="search" class="input__search" placeholder="Insira nome ou nº do pokemon" required/>
+        </form>
+        <div class="buttons">
+            <button class="button btn-prev">&lt Ante. </button>
+            <button class="button btn-next">Prox. &gt;</button>
+        </div>
+        <img class="pokedex" src="https://lucasadsr-pokedex.vercel.app/assets/images/pokedex.png" alt="pokedex imagem">
+        <section class="descricao">
+            <h1 class="title-descricao"></h1>
+            <div class="type">
+                <h2 class="type-name"></h2>
+            </div>
+            <div class="stats">
+                <h2 class="stats-name" >HP: <b id="hp"></b></h2>
+                <h2 class="stats-name" >ATTACK: <b id="attack"></b></h2>
+                <h2 class="stats-name" >DEFENSE: <b id="defense"></b></h2>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
